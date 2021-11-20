@@ -1,32 +1,40 @@
 <!DOCTYPE html>
 <html lang="ru">
 @@include('_head.html',{
-"title":"Главная"
+  "title":"Главная"
 })
 
 <body>
   <div class="wrapper">
-    @@include('_header.html',{})
+    @@include('_header.html',{}) 
     <main class="page">
 
-      <section id="slider-main" class="slider-main _swiper">
-        <div class="slider-main__slide slider__slide">
-          <div class="nuar_blk"></div>
-          <div class="slider-main__container _container">
-            <h1 class="slider-main__title">
-              УСЛУГИ ПО АУТСОРСИНГУ <br>
-              ОХРАНЫ ТРУДА
-            </h1>
-            <p class="slider-main__subtitle">
-              Услуга, которая позволит Вам сократить расходы <br>
-              на содержание в штате специалиста по охране труда
-            </p>
+      <section id="slider-main" class="slider-main">
+
+        <div class="slider-bg-wrap">
+          <div class="slider-bg _swiper">
+            <div class="slider-bg__slide slider__slide slider-main__slide">
+              <div class="nuar_blk"></div>
+              <div class="slider-bg__container _container">
+                <h1 class="slider-bg__title">
+                  УСЛУГИ ПО АУТСОРСИНГУ <br>
+                  ОХРАНЫ ТРУДА
+                </h1>
+                <p class="slider-bg__subtitle">
+                  Услуга, которая позволит Вам сократить расходы <br>
+                  на содержание в штате специалиста по охране труда
+                </p>
+              </div>
+            </div>
+          </div>
+          <div class="slider-bg__swiper-button-block swiper-button-block">
+            <div class="_container">
+              <div class="swiper-button swiper-button-next slider-main-next"></div>
+              <div class="swiper-button swiper-button-prev slider-main-prev"></div>
+            </div>
           </div>
         </div>
-        <div class="slider-main__button">
-          <div class="swiper-button swiper-button-next"></div>
-          <div class="swiper-button swiper-button-prev"></div>
-        </div>
+
       </section>
 
       <section id="about" class="about">
@@ -73,14 +81,193 @@
         </div>
       </section>
 
-      <section id="about" class="about">
+      <section id="advant" class="advant">
         <div class="_container">
+          <h2 class="advant__title title">Наши преимущества</h2>
+          <div class="advant__wrap d-flex">
+
+            <div class="advant__column">
+              <div class="advant__card">
+                <div class="advant__card-name d-flex">
+                  <div class="advant__card-icon advant__card-icon_01"></div>
+                  <h4 class="advant__card-title">
+                    Качество <br>
+                    услуг
+                  </h4>
+                </div>
+                <p class="advant__card-text">
+                  Правильно разработанные документы
+                  и мероприятия, устранят риск
+                  возникновения штрафных санкций
+                  органов контролирующих.
+                </p>
+              </div>
+            </div>
+
+            <div class="advant__column">
+              <div class="advant__card">
+                <div class="advant__card-name d-flex">
+                  <div class="advant__card-icon advant__card-icon_01"></div>
+                  <h4 class="advant__card-title">
+                    Доступные <br>
+                    цены
+                  </h4>
+                </div>
+                <p class="advant__card-text">
+                  Мы дорожим своими клиентами, поэтому 
+                  несем ответственность за результат 
+                  своей работы.
+                </p>
+              </div>
+            </div>
+
+            <div class="advant__column">
+              <div class="advant__card">
+                <div class="advant__card-name d-flex">
+                  <div class="advant__card-icon advant__card-icon_01"></div>
+                  <h4 class="advant__card-title">
+                    Гарантия <br>
+                    за работу
+                  </h4>
+                </div>
+                <p class="advant__card-text">
+                  ООО "Управление Безопасности" 
+                  аккредитована в Министерстве Труда на 
+                  право оказание услуг в области охраны 
+                  труда. Номер в реестре 6480.
+                </p>
+              </div>
+            </div>
+
+            <div class="advant__column">
+              <div class="advant__card">
+                <div class="advant__card-name d-flex">
+                  <div class="advant__card-icon advant__card-icon_01"></div>
+                  <h4 class="advant__card-title">
+                    Высокий уровень <br>
+                    экспертов
+                  </h4>
+                </div>
+                <p class="advant__card-text">
+                  Правильно разработанные документы 
+                  и мероприятия, устранят риск 
+                  возникновения штрафных санкций 
+                  органов контролирующих.
+                </p>
+              </div>
+            </div>
+
+            <div class="advant__column">
+              <div class="advant__card">
+                <div class="advant__card-name d-flex">
+                  <div class="advant__card-icon advant__card-icon_01"></div>
+                  <h4 class="advant__card-title">
+                    Минимальный риск <br>
+                    для бизнеса 
+                  </h4>
+                </div>
+                <p class="advant__card-text">
+                  Мы дорожим своими клиентами, поэтому 
+                  несем ответственность за результат 
+                  своей работы.
+                </p>
+              </div>
+            </div>
+
+            <div class="advant__column">
+              <div class="advant__card">
+                <div class="advant__card-name d-flex">
+                  <div class="advant__card-icon advant__card-icon_01"></div>
+                  <h4 class="advant__card-title">
+                    Наличие <br>
+                    аккредитации
+                  </h4>
+                </div>
+                <p class="advant__card-text">
+                  ООО "Управление Безопасности" 
+                  аккредитована в Министерстве Труда на 
+                  право оказание услуг в области охраны 
+                  труда. Номер в реестре 6480.
+                </p>
+              </div>
+            </div>
+
+          </div>
+        </div>
+      </section>
+
+      <section id="licenses" class="licenses">
+        <div class="_container">
+
+          <div class="slider-title d-flex">
+            <h2 class="slider-title__title title">Лицензии и аккредитации</h2>
+            <div class="swiper-button-block">
+              <div class="swiper-button swiper-button-next licenses-sl-next"></div>
+              <div class="swiper-button swiper-button-prev licenses-sl-prev"></div>
+            </div>
+          </div>
+
+          <div class="licenses-sl slider _swiper">
+            <div class="licenses-sl__slider-slide slider-slide">
+              <img src="img/licenses/01.jpg" alt="">
+            </div>
+            <div class="licenses-sl__slider-slide slider-slide">
+              <img src="img/licenses/02.jpg" alt="">
+            </div>
+            <div class="licenses-sl__slider-slide slider-slide">
+              <img src="img/licenses/03.jpg" alt="">
+            </div>
+            <div class="licenses-sl__slider-slide slider-slide">
+              <img src="img/licenses/04.jpg" alt="">
+            </div>
+            <div class="licenses-sl__slider-slide slider-slide">
+              <img src="img/licenses/05.jpg" alt="">
+            </div>
+            <div class="licenses-sl__slider-slide slider-slide">
+              <img src="img/licenses/05.jpg" alt="">
+            </div>
+          </div>
 
         </div>
       </section>
 
       <section id="about" class="about">
         <div class="_container">
+
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews">
+        <div class="_container">
+
+          <div class="slider-title d-flex">
+            <h2 class="slider-title__title title">Отзывы клиентов</h2>
+            <div class="swiper-button-block">
+              <div class="swiper-button swiper-button-next reviews-sl-next"></div>
+              <div class="swiper-button swiper-button-prev reviews-sl-prev"></div>
+            </div>
+          </div>
+
+          <div class="reviews-sl slider _swiper">
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/01.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/02.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/03.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/04.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/05.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/06.jpg" alt="">
+            </div>
+          </div>
 
         </div>
       </section>
