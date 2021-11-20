@@ -33,9 +33,9 @@
   width: 100%;
   height: 100%;
   background-color: #00000035;
-	&:hover {
- 	 background-color: #00000050;
-	}
+	// &:hover {
+ 	//  background-color: #00000050;
+	// }
 }
 //====================================================================================================
 // Наложение труегольного блока
@@ -316,10 +316,11 @@ body.ie {
 	position: absolute;
 	top: 28%;
 	z-index: 5000;
-	width: 43px;
-	height: 43px;
-	border: 2px solid #fff;
-	border-radius: 50%;
+	width: 50px;
+	height: 50px;
+  border-radius: 10px;
+  background: #fff;
+  border: 1px solid rgba(218, 218, 218, 0.78);
 	cursor: pointer;
 	display: flex;
 	justify-content: center;
