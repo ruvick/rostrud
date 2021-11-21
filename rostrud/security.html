@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<title>Охрана</title>
+	<meta charset="UTF-8">
+	<meta name="format-detection" content="telephone=no">
+	<link rel="stylesheet" href="css/style.min.css">
+	<!-- <link rel="stylesheet" href="css/fancybox.css"> -->
+	<link rel="icon" type="image/png" href="img/favicons/icon256.png" sizes="256x256">
+	<link rel="icon" type="image/png" href="img/favicons/icon128.png" sizes="128x128">
+	<link rel="icon" type="image/png" href="img/favicons/icon64.png" sizes="64x64">
+	<link rel="icon" type="image/png" href="img/favicons/icon32.png" sizes="32x32">
+	<link rel="icon" type="image/png" href="img/favicons/icon16.png" sizes="16x16">
+	<link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">
+	<link rel="shortcut icon" href="favicon.ico">
+	<!-- <meta name="robots" content="noindex, nofollow"> -->
+	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+</head>
+
+<body>
+  <div class="wrapper">
+    <header id="header" class="header">
+
+  <div class="header__navigation">
+    <div class="header__navigation-container _container">
+      <div class="header__navigation-row">
+        <a href="index.html" class="logo-icon header__logo">
+          <!-- <? bloginfo("url"); ?> -->
+        </a>
+
+        <p class="header__address">г. Курск, ул.1-я Пушкарная, д. 28</p>
+
+        <a href="mailto:ros-trud@mail.ru" class="header__mail">ros-trud@mail.ru</a>
+
+        <div class="header__soc-block">
+          <div class="header__soc-block-icon soc-block-icon">
+            <a href="#" class="soc-block-icon__link soc-block-icon__link_1"></a>
+            <a href="#" class="soc-block-icon__link soc-block-icon__link_2"></a>
+            <a href="#" class="soc-block-icon__link soc-block-icon__link_3"></a>
+            <a href="#" class="soc-block-icon__link soc-block-icon__link_4"></a>
+          </div>
+          <p class="header__soc-block-text">МЫ В СОЦСЕТЯХ</p>
+        </div>
+
+        <a href="tel:+74712550286" class="header__phone">+7 (4712) 55-02-86</a>
+        <!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
+        <a href="tel:+74712550286" class="mob-phone-icon header__mob-phone-icon"></a>
+        <!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->
+
+        <div class="icon-menu" aria-label="Бургер меню">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="header__menu">
+    <div class="header__menu-container _container">
+      <ul class="menu-list header__menu-list d-flex">
+        <li class="menu-list__item"><a href="#" class="menu-list__link">Главная</a></li>
+        <li class="menu-list__item"><a href="#" class="menu-list__link">О нас</a></li>
+        <li class="menu-list__item"><a href="#" class="menu-list__link">Акции</a></li>
+        <li class="menu-list__item"><a href="#" class="menu-list__link">Аккредитации и лицензии</a></li>
+        <li class="menu-list__item"><a href="#" class="menu-list__link">Наши клиенты и партнеры</a></li>
+        <li class="menu-list__item"><a href="services.html" class="menu-list__link">Услуги</a></li>
+        <li class="menu-list__item"><a href="#" class="menu-list__link">Отзывы</a></li>
+        <li class="menu-list__item"><a href="#" class="menu-list__link">Контакты</a></li>
+      </ul>
+      <!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list',
+						'container_class' => 'menu__list','container' => false )); ?>  -->
+    </div>
+  </div>
+
+</header>
+
+<!-- Мобильное меню -->
+<div class="mob-menu header__mob-menu">
+  <ul class="mob-menu__list">
+    <li class="mob-menu__item"><a href="#" class="mob-menu__link">Главная</a></li>
+    <li class="mob-menu__item"><a href="#" class="mob-menu__link">О нас</a></li>
+    <li class="mob-menu__item"><a href="#" class="mob-menu__link">Акции</a></li>
+    <li class="mob-menu__item"><a href="#" class="mob-menu__link">Аккредитации и лицензии</a></li>
+    <li class="mob-menu__item"><a href="#" class="mob-menu__link">Наши клиенты и партнеры</a></li>
+    <li class="mob-menu__item"><a href="services.html" class="mob-menu__link">Услуги</a></li>
+    <li class="mob-menu__item"><a href="#" class="mob-menu__link">Отзывы</a></li>
+    <li class="mob-menu__item"><a href="#" class="mob-menu__link">Контакты</a></li>
+  </ul>
+  <!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',
+		'container_class' => 'mob-menu__list','container' => false )); ?>  -->
+  <a href="#callback" class="header__popup-link header__popup-link_mob _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
+</div> 
+    <main class="page">
+
+      <section id="security" class="security page-recurring">
+        <div class="_container">
+
+          <p id="breadcrumbs"> 
+            <span>
+              <span>
+                <a href="index.html">
+                  Главная
+                </a> /
+                <a href="services.html">
+                  Услуги
+                </a> /
+                <a href="#">
+                  Охрана труда 
+                </a> /
+                <span class="breadcrumb_last" aria-current="page">
+                   Аутсорсинг охраны труда
+                </span>
+              </span>
+            </span>
+          </p>
+
+          <h1 class="security__title title">Аутсорсинг по охране труда</h1>
+
+
+
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews">
+        <div class="_container">
+
+          <div class="slider-title d-flex">
+            <h2 class="slider-title__title title">Отзывы клиентов</h2>
+            <div class="swiper-button-block">
+              <div class="swiper-button swiper-button-next reviews-sl-next"></div>
+              <div class="swiper-button swiper-button-prev reviews-sl-prev"></div>
+            </div>
+          </div>
+
+          <div class="reviews-sl slider _swiper">
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/01.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/02.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/03.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/04.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/05.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/06.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+    <footer id="footer" class="footer">
+  <div class="footer__container _container">
+
+    <div class="footer__row d-flex">
+
+      <a href="index.html" class="logo-icon footer__logo">
+        <!-- <? bloginfo("url"); ?> -->
+      </a>
+
+      <ul class="footer__menu">
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Главная</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Наши клиенты и партнеры</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">О нас</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Услуги</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Акции</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Отзывы</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Аккредитации и лицензии</a></li>
+        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Контакты</a></li>
+      </ul>
+
+      <div class="footer__address">
+        <p class="footer__address-text">г. Курск, ул.1-я Пушкарная, д. 28</p>
+        <a href="mailto:ros-trud@mail.ru" class="footer__address-email">ros-trud@mail.ru</a>
+      </div>
+
+      <div class="footer__contacts">
+        <a href="tel:+74712550286" class="footer__contacts-phone">+7 (4712) 55-02-86</a>
+        <a href="tel:+79513106993" class="footer__contacts-phone">+7 (951) 310-69-93</a>
+        <a href="#callback" class="footer__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
+      </div>
+
+    </div>
+
+  </div>
+</footer>
+  </div>
+  <!-- Popup-с формой -->
+<div class="popup popup_callback">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
+			<div class="popup__item d-flex">
+				<div class="popup__img">
+					<img src="img/popup.jpg" alt="">
+				</div>
+				<div class="popup__form-block">
+					<h2>Заказать звонок</h2>
+					<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
+					<form action="#" class="form">
+						<div class="form__line">
+							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Имя"
+								class="popup__form-input input _req">
+							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Телефон"
+								class="popup__form-input input _phone _req">
+							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Email"
+								class="popup__form-input input _email _req">
+						</div>
+						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
+								конфиденциальности</a></p>
+						<button class="popup__form-btn form__btn btn">Заказать</button>
+					</form>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+
+<!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
+<!-- =============================================================================================================================== -->
+
+
+<div class="popup popup_popup">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
+		</div>
+	</div>
+</div>
+<!-- =============================================================================================================================== -->
+
+<div class="popup popup_massagename-message">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
+		</div>
+	</div>
+</div>
+<!-- =============================================================================================================================== -->
+
+<div class="popup popup_video">
+	<div class="popup__content">
+		<div class="popup__body">
+			<div class="popup__close popup__close_video" aria-label="Закрыть модальное окно"></div>
+			<div class="popup__video _video"></div>
+		</div>
+	</div>
+</div>
+<!-- <a href="#video" data-video="stFOy0Noahg" class=" _popup-link">Открыть видео</a> -->
+<!-- =============================================================================================================================== -->
+
+<!-- Popup-CSS -->
+<!-- <div id="popup-2" class="popup-2">
+	<a href="#" class="popup__area-2"></a>
+	<div class="popup__body-2">
+		<div class="popup__content-2">
+
+			<a href="#" class="popup__close-2">Close</a>
+			<div class="popup__title">Заказать ворота Дешево!</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+			<div class="popup__text">
+				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
+				Алютех и REHAU и Авелор
+			</div>
+
+		</div>
+	</div>
+</div> -->
+<!-- <a href="#popup-2" class="heading-info__button popup-link"></a> -->
+  <!-- Swiper -->
+<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
+<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script> -->
+<script src="js/vendors.min.js"></script>
+<script src="js/app.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="ru">
+@@include('_head.html',{
+  "title":"Охрана"
+})
+
+<body>
+  <div class="wrapper">
+    @@include('_header.html',{}) 
+    <main class="page">
+
+      <section id="security" class="security page-recurring">
+        <div class="_container">
+
+          <p id="breadcrumbs"> 
+            <span>
+              <span>
+                <a href="index.html">
+                  Главная
+                </a> /
+                <a href="services.html">
+                  Услуги
+                </a> /
+                <a href="#">
+                  Охрана труда 
+                </a> /
+                <span class="breadcrumb_last" aria-current="page">
+                   Аутсорсинг охраны труда
+                </span>
+              </span>
+            </span>
+          </p>
+
+          <h1 class="security__title title">Аутсорсинг по охране труда</h1>
+
+
+
+        </div>
+      </section>
+
+      <section id="reviews" class="reviews">
+        <div class="_container">
+
+          <div class="slider-title d-flex">
+            <h2 class="slider-title__title title">Отзывы клиентов</h2>
+            <div class="swiper-button-block">
+              <div class="swiper-button swiper-button-next reviews-sl-next"></div>
+              <div class="swiper-button swiper-button-prev reviews-sl-prev"></div>
+            </div>
+          </div>
+
+          <div class="reviews-sl slider _swiper">
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/01.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/02.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/03.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/04.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/05.jpg" alt="">
+            </div>
+            <div class="reviews-sl__slider-slide slider-slide">
+              <img src="img/reviews/06.jpg" alt="">
+            </div>
+          </div>
+
+        </div>
+      </section>
+
+    </main>
+    @@include('_footer.html',{})
+  </div>
+  @@include('_popup.html',{})
+  @@include('_js.html',{})
+</body>
+
+</html>
