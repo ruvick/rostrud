@@ -380,10 +380,6 @@ h4 {
 }
 //========================================================================================================================================================
 
-.licenses {
-  padding: 80px 0 50px;
-}
-
 .slider-title {
   justify-content: space-between;
   // .slider-title__title
@@ -391,7 +387,6 @@ h4 {
     margin-right: 15px;
   }
 }
-
 .swiper-button-block {
 }
 .swiper-button {
@@ -411,15 +406,16 @@ h4 {
   border: 1px solid #000;
 }
 
+.licenses {
+  padding: 80px 0 50px;
+}
+
 .licenses-sl__slider-slide {
    // flex: 0 1 224px;
   width: 224px !important;
   height: 307px;
   margin-right: 30px;
 }
-
-
-
 
 .reviews {
   padding: 73px 0 90px 0;
@@ -431,6 +427,84 @@ h4 {
   height: 249px;
   margin-right: 30px;
 }
+
+.clients {
+  padding: 50px 0 80px 0;
+}
+.clients-sl__slider-slide {
+  // flex: 0 1 224px;
+  width: 288px !important;
+  height: 162px;
+  border-radius: 10px;
+  background: #fff;
+  box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+  margin-right: 30px;
+}
+//========================================================================================================================================================
+
+.news {
+  padding: 73px 0 52px 0;
+  background: #FAFAFA;
+  // .news__title
+  &__title {}
+  // .news__wrap
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -14px;
+  }
+  // .news__column
+  &__column {
+    display: flex;
+    flex: 0 1 33.333%;
+    padding: 0 14px;
+    margin-bottom: 28px;
+  }
+}
+
+.card-news {
+  display: flex;
+  flex-direction: column;
+  // .card-news__img
+  &__img {
+    height: 295px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 4px 10px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  // .card-news__descp
+  &__descp {
+    padding: 18px 0;
+  }
+  // .card-news__descp-date
+  &__descp-date {
+    font-size: 12px;
+    font-weight: 700;
+    line-height: 14.4px;
+    color: #FEA621;
+    margin-bottom: 13px;
+  }
+  // .card-news__descp-title
+  &__descp-title {
+    color: #000;
+    text-decoration: underline;
+    margin-bottom: 13px;
+  }
+  // .card-news__descp-subtitle
+  &__descp-subtitle {
+    font-size: 16px;
+    line-height: 19.2px;
+  }
+}
+
+
+
+
+
+
+
+
 //</ОСНОВНОЙ БЛОК>====================================================================================================
 
 //<Адаптив>===========================================================================================================================================
