@@ -561,7 +561,205 @@ h4 {
 }
 //========================================================================================================================================================
 
+.security {
+  // .security__wrap
+  &__wrap {
+    justify-content: space-between;
+    margin-bottom: 60px;
+  }
+  // .security__column
+  &__column {
+    flex: 0 1 50%;
+    margin-right: 25px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+  // .security__column-img
+  &__column-img {
+    height: 100%;
+    // height: 643px;
+    box-shadow: 0px 4px 10px 0px rgba(0,0,0,0.1);
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  // .security__column-descp
+  &__column-descp {}
+  // .security__column-descp-text
+  &__column-descp-text {
+    font-size: 20px;
+    line-height: 30px;
+    text-align: justify;
+    color: #838383;
+    span {
+      font-weight: 700;
+      color: #000000;
+    }
+  }
+  // .security__consult-block
+  &__consult-block {
+    padding: 38px;
+    background-color: #eff7ff;
+    border-radius: 10px;
+    margin-top: 18px;
+  }
+  // .security__consult-block-title
+  &__consult-block-title {
+    color: #000;
+    margin-bottom: 15px;
+  }
+  // .security__consult-block-btn
+  &__consult-block-btn {}
+  // .security__consult-block-btn-link
+  &__consult-block-btn-link {
+    border-radius: 18px;
+    margin-right: 20px;
+    &:last-child {
+      margin-right: 0;
+    }
+  }
+}
 
+.security {
+  // .security__tariff-plans-title
+  &__title {
+    margin-bottom: 25px;
+  }
+}
+
+.tariff-plans {
+  // .tariff-plans__wrap
+  &__wrap {
+    display: flex;
+    flex-wrap: wrap;
+    margin: 0 -15px 30px -15px;
+  }
+  // .tariff-plans__column
+  &__column {
+    display: flex;
+    flex: 0 1 25%;
+    padding: 0 15px;
+    margin-bottom: 30px;
+    overflow: hidden;
+  }
+  // .tariff-plans__card
+  &__card {
+    display: flex;
+    flex-direction: column; 
+    flex: 0 1 100%;
+    border: 1px solid #f0f0f0;
+    border-radius: 10px;
+    overflow: hidden;
+  }
+  // .tariff-plans__card-header
+  &__card-header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 25px;
+    height: 100px;
+    background-color: #000542;
+    border-radius: 10px 10px 0px 0px;
+    overflow: hidden;
+  }
+  // .tariff-plans__card-header-title
+  &__card-header-title {
+    text-align: center;
+    color: #fff;
+  }
+  // .tariff-plans__card-descp
+  &__card-descp {
+    flex: 1 1 auto;
+    text-align: center; 
+    padding: 30px 30px 23px 30px;
+    // border-bottom: 1px solid #e1ebf4;
+  }
+  // .tariff-plans__card-descp-price
+  &__card-descp-price {
+      font-size: 20px;
+      line-height: 1.2;
+      font-weight: 400;
+      color: #000000;
+      margin-bottom: 15px;
+    span {
+      font-size: 26px;
+      font-weight: 700;
+    }
+  }
+  // .tariff-plans__card-descp-text
+  &__card-descp-text {
+    font-size: 16px;
+    line-height: 1.2;
+    color: #838383;
+  }
+  // .tariff-plans__card-btn
+  &__card-btn {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 20px;
+  }
+    &__card-btn-line {
+    max-width: 245px;
+    width: 100%;
+    height: 1px;
+    background-color: #e1ebf4;
+  }
+  &__card-btn-link {
+    // color: #fff;
+    margin-top: 20px;
+  }
+}
+
+.security {
+  // .security__title
+  &__title {}
+  &__descp {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+  }
+  // .security__descp-list
+  &__descp-list {
+    flex: 0 1 50%;
+    margin-right: 20px;
+      &:last-child {
+        margin-right: 0;
+    }
+  }
+  // .security__descp-list-item
+  &__descp-list-item {
+    font-size: 20px;
+    line-height: 21px;
+    margin-bottom: 20px;
+    &:before {
+      content:'';
+      float: left;
+      width: 16px;
+      height: 14px;
+      margin-right: 10px;
+      background-color: #fea621;
+    }
+  }
+}
+
+.security__notification {
+  position: relative;
+  font-size: 14px;
+  line-height: 21px;
+  color: #838383;
+  padding-left: 20px;
+  &:before {
+    position: absolute;
+    top: 0;
+    left: 0;
+    content:'';
+    float: left;
+    width: 13px;
+    height: 17px;
+    border: 1px solid #000;
+  }
+}
 
 
 

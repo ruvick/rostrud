@@ -28,10 +28,11 @@
 	// min-width: 144px;
 	// min-height: 36px;
 	font-size: 12px;
-	font-weight: 400;
+	font-weight: 700;
+	text-transform: uppercase;
 	color: #000;
 	background: #FFE417;
-	border-radius: 5px;
+	border-radius: 18px;
 	&:hover{}
 	&.fw{width: 100%;}  
 }
