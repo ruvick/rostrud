@@ -2979,12 +2979,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   z-index: 5000;
 }
 
-.header__navigation-row {
+.header__navigation-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 1070px;
-  width: 100%;
   padding: 10px 0;
 }
 
@@ -3032,6 +3030,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .header__phone {
   font-size: 20px;
   line-height: 24px;
+}
+
+.header__contacts {
+  align-items: center;
+}
+
+.header__callback {
+  margin-left: 15px;
 }
 
 .header__menu {
