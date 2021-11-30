@@ -2924,7 +2924,7 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 .popup__body {
   max-width: 800px;
   width: 100%;
-  background: #EBEFE2;
+  background: #EFF7FF;
   transform: scale(0);
   transition: all 0.3s ease 0s;
   overflow: hidden;
@@ -2955,18 +2955,27 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 }
 
 .popup__notific {
+  line-height: 1.2;
   margin-bottom: 35px;
 }
 
 .popup__form-input {
   height: 46px;
+  color: #838383;
   background: #F6F8F1;
   border: 1px solid #737373;
   margin-bottom: 25px;
 }
 
 .popup__policy {
+  font-size: 16px;
+  line-height: 1;
   margin-bottom: 25px;
+}
+
+.popup__policy a {
+  font-size: 16px;
+  color: #838383;
 }
 
 .popup__form-btn {
@@ -4400,6 +4409,10 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
   .tariff-plans__column {
     flex: 0 0 60%;
+  }
+
+  .popup__form-btn {
+    width: 100%;
   }
 }
 @media (max-width: 375px) {
