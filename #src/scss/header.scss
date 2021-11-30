@@ -3,11 +3,14 @@
 	z-index: 5000;
 }
 
+.header__navigation {
+  padding: 10px 0;
+}
+
 .header__navigation-container{
   display: flex;
-  justify-content:space-between;
+  justify-content:space-between; 
   align-items:center;
-  padding: 10px 0;
 }
 
 // Logo 

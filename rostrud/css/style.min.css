@@ -174,12 +174,12 @@ h4 {
   justify-content: center;
   align-items: center;
   text-align: center;
-  padding: 10px 25px;
+  padding: 10px 13px;
   font-size: 12px;
   font-weight: 700;
   text-transform: uppercase;
-  color: #000;
-  background: #FFE417;
+  color: #fff;
+  background: #fea621;
   border-radius: 18px;
 }
 .btn.fw {
@@ -872,14 +872,14 @@ body.ie ._ibg img {
   left: 2%;
 }
 .swiper-button-next:before {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiPg0KICA8aW1hZ2UgaWQ9ImNoZXZyb24tcmlnaHQiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFnQUFBQU1DQVlBQUFCZm52eWRBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBRTVKUkVGVUdGZGovUC8vUHdNVzBBRVU0d2ZpTEVZc0NrQ1M1VkJOOXVnS2tDV3pnSXFtSXl2QWtBU1pBbE9BVlJLbUFLY2swUXBBQ3ZGYUFRc0d2STdFcVloUVFGbGlVd0J6RTRpdUFBQm9MVGhndUxFelFRQUFBQUJKUlU1RXJrSmdnZz09Ii8+DQo8L3N2Zz4NCg==");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiPg0KICA8aW1hZ2UgaWQ9ImNoZXZyb24tcmlnaHQiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFnQUFBQU1DQVlBQUFCZm52eWRBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBRTVKUkVGVUdGZGpaTUFPT2hnWUdQZ1pHQml5R0xISWd5VExvZUwyNkFxUUpiTVlHQmltSXl2QWtBU1pBbE9BVlJLbUFLY2swUXBBQ3ZGYUFmTXBYa2ZpVkVRb29DeXhLWUM1Q1VSWEFBQ2lUUlNFSXRmbmNnQUFBQUJKUlU1RXJrSmdnZz09Ii8+DQo8L3N2Zz4NCg==");
 }
 
 .swiper-button-prev {
   right: 2%;
 }
 .swiper-button-prev:before {
-  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiPg0KICA8aW1hZ2UgaWQ9ImNoZXZyb24tcmlnaHQiIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFnQUFBQU1DQVlBQUFCZm52eWRBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBRXRKUkVGVUdGZGovUC8vUHdNUWRBQXhQeEJuQVRGWUFBWVlnUW9zZ0p6alVJRVo2SXBBQ2tCeW1VQThEWnNpbUFLY2lwQVZZRldFcmdCREVja0tNQnhMdENQeGVwT29nTUlaMUFEcjlVRVpZdlZ1b3dBQUFBQkpSVTVFcmtKZ2dnPT0iLz4NCjwvc3ZnPg0K");
+  background-image: url("data:image/svg+xml;base64,PHN2ZyB4bWxucz0iaHR0cDovL3d3dy53My5vcmcvMjAwMC9zdmciIHhtbG5zOnhsaW5rPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5L3hsaW5rIiB3aWR0aD0iOCIgaGVpZ2h0PSIxMiIgdmlld0JveD0iMCAwIDggMTIiPg0KICA8aW1hZ2UgaWQ9ImNoZXZyb24tcmlnaHRf0LrQvtC/0LjRjyIgZGF0YS1uYW1lPSJjaGV2cm9uLXJpZ2h0INC60L7Qv9C40Y8iIHdpZHRoPSI4IiBoZWlnaHQ9IjEyIiB4bGluazpocmVmPSJkYXRhOmltYWdlL3BuZztiYXNlNjQsaVZCT1J3MEtHZ29BQUFBTlNVaEVVZ0FBQUFnQUFBQU1DQVlBQUFCZm52eWRBQUFBQkhOQ1NWUUlDQWdJZkFoa2lBQUFBRkZKUkVGVUdGZGpaSUNBRGdZR0JuNEdCb1lzQmdhRy8xQXhNTVhJd01CZ3djREFjQndxT0FOZEVVZ0JDR1F5TURCTXc2WUlwZ0NuSW1RRldCV2hLOEJRUkxJQ0RNY1M3VWk4M2lRcW9IQUdOUUFtSkIwOXo3MEpXQUFBQUFCSlJVNUVya0pnZ2c9PSIvPg0KPC9zdmc+DQo=");
 }
 
 ._tabs-item {
@@ -2979,11 +2979,14 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   z-index: 5000;
 }
 
+.header__navigation {
+  padding: 10px 0;
+}
+
 .header__navigation-container {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 10px 0;
 }
 
 .header__logo {
@@ -3216,7 +3219,6 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   font-weight: 700;
   line-height: 14.39px;
   color: #fff;
-  margin-top: 24px;
 }
 
 .page-recurring {
@@ -3478,9 +3480,11 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
 
 .slider-title {
   justify-content: space-between;
+  margin-bottom: 48px;
 }
 .slider-title__title {
   margin-right: 15px;
+  margin-bottom: 0;
 }
 
 .slider {
@@ -3792,9 +3796,33 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
   border: 1px solid #000;
 }
 
-@media (max-width: 1200px) {
+@media (max-width: 1280px) {
   ._container {
     padding: 0 10px;
+  }
+}
+@media (max-width: 1100px) {
+  .menu-list a {
+    padding: 5px 0 5px 35px;
+  }
+}
+@media (max-width: 960px) {
+  .menu-list a {
+    padding: 5px 0 5px 25px;
+  }
+}
+@media (max-width: 1024px) {
+  .header__contacts {
+    flex-direction: column;
+  }
+
+  .header__callback {
+    margin-top: 5px;
+  }
+}
+@media (max-width: 812px) {
+  .header__mail {
+    display: none;
   }
 }
 @media (max-width: 768px) {
@@ -3802,59 +3830,45 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     position: fixed;
     width: 100%;
     padding: 5px 0;
+    background: #fff;
     box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
-  }
-
-  .header__logo {
-    margin-right: 20px;
-  }
-
-  .logo-icon {
-    flex: 0 0 45px;
-    height: 15px;
-  }
-
-  .logo-icon:before {
-    flex: 0 0 100%;
-    height: 100%;
-  }
-
-  .logo-icon p {
-    display: none;
   }
 
   .icon-menu {
     display: flex;
   }
 
-  .header__menu-block {
-    margin-right: 15px;
+  .header__menu,
+.header__soc-block,
+.header__callback {
+    display: none;
+  }
+
+  .header__address {
+    line-height: 1;
+    margin-left: auto;
+    margin-right: 20px;
+  }
+
+  .header__contacts {
+    margin-right: 20px;
+  }
+
+  .logo-icon {
+    flex: 0 0 35px;
+    height: 35px;
+  }
+
+  .header__navigation {
+    padding: 0;
   }
 
   .header__menu-list {
     display: none;
   }
 
-  .header__search form {
-    max-height: 30px;
-  }
-
-  .header__contacts {
-    flex: 0 0 133px;
-    margin-left: auto;
-    margin-right: 15px;
-  }
-
   .header__phone {
     font-size: 18px;
-  }
-
-  .header__time-phone {
-    display: none;
-  }
-
-  .header__popup-link {
-    display: none;
   }
 
   .header__popup-link_mob {
@@ -3892,16 +3906,16 @@ body:not(.lg-from-hash) .lg-outer.lg-start-zoom .lg-item.lg-complete .lg-object 
     padding: 35px 15px;
   }
 }
-@media (max-width: 515px) {
-  .header__contacts {
+@media (max-width: 540px) {
+  .header__address {
     display: none;
   }
 
-  .header__mob-phone-icon {
-    display: flex;
-    margin-right: 25px;
+  .header__contacts {
+    margin-left: auto;
   }
-
+}
+@media (max-width: 515px) {
   .popup__img {
     display: none;
   }

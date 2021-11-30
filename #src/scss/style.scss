@@ -382,14 +382,16 @@ h4 {
 
 .slider-title {
   justify-content: space-between;
+  margin-bottom: 48px;
   // .slider-title__title
   &__title {
     margin-right: 15px;
+    margin-bottom: 0;
   }
 }
 .swiper-button-block {
 }
-.swiper-button {
+.swiper-button { 
 }
 .swiper-button-next {
 }
