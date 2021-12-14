@@ -1,611 +1,1 @@
-<!DOCTYPE html>
-<html lang="ru">
-<head>
-	<title>Главная</title>
-	<meta charset="UTF-8">
-	<meta name="format-detection" content="telephone=no">
-	<link rel="stylesheet" href="css/style.min.css">
-	<!-- <link rel="stylesheet" href="css/fancybox.css"> -->
-	<link rel="icon" type="image/png" href="img/favicons/icon256.png" sizes="256x256">
-	<link rel="icon" type="image/png" href="img/favicons/icon128.png" sizes="128x128">
-	<link rel="icon" type="image/png" href="img/favicons/icon64.png" sizes="64x64">
-	<link rel="icon" type="image/png" href="img/favicons/icon32.png" sizes="32x32">
-	<link rel="icon" type="image/png" href="img/favicons/icon16.png" sizes="16x16">
-	<link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">
-	<link rel="shortcut icon" href="favicon.ico">
-	<!-- <meta name="robots" content="noindex, nofollow"> -->
-	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->
-	<meta name="viewport" content="width=device-width, initial-scale=1.0">
-</head>
-
-<body>
-  <div class="wrapper">
-    <header id="header" class="header">
-
-  <div class="header__navigation">
-    <div class="header__navigation-container _container">
-      <a href="index.html" class="logo-icon header__logo">
-        <!-- <? bloginfo("url"); ?> -->
-      </a>
-
-      <p class="header__address">г. Курск, ул.1-я Пушкарная, д. 28</p>
-
-      <a href="mailto:ros-trud@mail.ru" class="header__mail">ros-trud@mail.ru</a> 
-
-      <div class="header__soc-block">
-        <div class="header__soc-block-icon soc-block-icon">
-          <a href="#" class="soc-block-icon__link soc-block-icon__link_1"></a>
-          <a href="#" class="soc-block-icon__link soc-block-icon__link_2"></a>
-          <a href="#" class="soc-block-icon__link soc-block-icon__link_3"></a>
-          <a href="#" class="soc-block-icon__link soc-block-icon__link_4"></a>
-        </div>
-        <p class="header__soc-block-text">МЫ В СОЦСЕТЯХ</p>
-      </div>
-
-      <div class="header__contacts d-flex">
-        <a href="tel:+74712550286" class="header__phone">+7 (4712) 55-02-86</a>
-        <!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->
-        <a href="#callback" class="header__callback btn _popup-link">ЗАКАЗКАТЬ ЗВОНОК</a>
-      </div>
-      <a href="tel:+74712550286" class="mob-phone-icon header__mob-phone-icon"></a>
-      <!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->
-
-      <div class="icon-menu" aria-label="Бургер меню">
-        <span></span>
-        <span></span>
-        <span></span>
-      </div>
-    </div>
-  </div>
-
-  <div class="header__menu">
-    <div class="header__menu-container _container">
-      <ul class="menu-list header__menu-list d-flex">
-        <li class="menu-list__item"><a href="#" class="menu-list__link">Главная</a></li>
-        <li class="menu-list__item"><a href="#" class="menu-list__link">О нас</a></li>
-        <li class="menu-list__item"><a href="#" class="menu-list__link">Акции</a></li>
-        <li class="menu-list__item"><a href="security.html" class="menu-list__link">Аккредитации и лицензии</a></li>
-        <li class="menu-list__item"><a href="#" class="menu-list__link">Наши клиенты и партнеры</a></li>
-        <li class="menu-list__item"><a href="services.html" class="menu-list__link">Услуги</a></li>
-        <li class="menu-list__item"><a href="#" class="menu-list__link">Отзывы</a></li>
-        <li class="menu-list__item"><a href="#" class="menu-list__link">Контакты</a></li>
-      </ul>
-      <!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list',
-        'container_class' => 'menu__list','container' => false )); ?>  -->
-      </div>
-    </div>
-
-  </header>
-
-  <!-- Мобильное меню -->
-  <div class="mob-menu header__mob-menu">
-    <ul class="mob-menu__list">
-      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Главная</a></li>
-      <li class="mob-menu__item"><a href="#" class="mob-menu__link">О нас</a></li>
-      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Акции</a></li>
-      <li class="mob-menu__item"><a href="security.html" class="mob-menu__link">Аккредитации и лицензии</a></li>
-      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Наши клиенты и партнеры</a></li>
-      <li class="mob-menu__item"><a href="services.html" class="mob-menu__link">Услуги</a></li>
-      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Отзывы</a></li>
-      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Контакты</a></li>
-    </ul>
-
-    <div class="header__soc-block header__soc-block_mob">
-      <div class="header__soc-block-icon soc-block-icon">
-        <a href="#" class="soc-block-icon__link soc-block-icon__link_1"></a>
-        <a href="#" class="soc-block-icon__link soc-block-icon__link_2"></a>
-        <a href="#" class="soc-block-icon__link soc-block-icon__link_3"></a>
-        <a href="#" class="soc-block-icon__link soc-block-icon__link_4"></a>
-      </div>
-      <p class="header__soc-block-text">МЫ В СОЦСЕТЯХ</p>
-    </div>
-  <!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',
-    'container_class' => 'mob-menu__list','container' => false )); ?>  -->
-    <a href="#callback" class="header__popup-link header__popup-link_mob btn _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
-  </div> 
-    <main class="page">
-
-      <section id="slider-main" class="slider-main">
-
-        <div class="slider-bg-wrap">  
-          <div class="slider-bg _swiper">
-            <div class="slider-bg__slide slider__slide slider-main__slide">
-              <div class="nuar_blk"></div>
-              <div class="slider-bg__container _container"> 
-                <h1 class="slider-bg__title">
-                  УСЛУГИ ПО АУТСОРСИНГУ <br>
-                  ОХРАНЫ ТРУДА
-                </h1>
-                <p class="slider-bg__subtitle">
-                  Услуга, которая позволит Вам сократить расходы <br>
-                  на содержание в штате специалиста по охране труда
-                </p>
-              </div>
-            </div>
-          </div>
-          <div class="slider-bg__swiper-button-block swiper-button-block">
-            <div class="_container">
-              <div class="swiper-button swiper-button-next slider-main-next"></div>
-              <div class="swiper-button swiper-button-prev slider-main-prev"></div>
-            </div>
-          </div>
-        </div>
-
-      </section>
-
-      <section id="about" class="about">
-        <div class="_container">
-          <h2 class="about__title">
-            ООО «Рос.Труд» услуги в области охраны труда, <br>
-            промышленной, пожарной безопасности, ГО ЧС
-          </h2>
-          <div class="about__subtitle">
-            <p>
-              Наша компания более уже более 8 лет работает на рынке города и области! У нас
-              работают ПРОФЕССИОНАЛЫ. Построим и запустим систему охрану труда любой сложности в кратчайшие сроки.
-              Проводим консультации. Мы придерживаемся гибкой ценовой политики. Индивидуально подберем наиболее выгодную
-              для Вас форму сотрудничества. Дополнительно наши клиенты получают особые условия сотрудничества по всем
-              обязательным по законодательству РФ мероприятиям в области охране труда от партнерских организаций
-              (учебные
-              центры, аттестующие организации, магазины спецодежды, медучреждения и т.д.). Звоните, и наши специалисты
-              ответят на все Ваши вопросы.
-            </p>
-          </div>
-
-          <div class="about__row d-flex">
-            <div class="about__column-text">
-              <h2 class="about__column-text-title">
-                Наша цель - долгосрочные <br>
-                партнерские отношения
-              </h2>
-              <p class="about__column-text-subtitle">
-                Мы динамично развивающаяся компания в сфере охраны труда и промышленной безопасности.
-                Наше быстрое развитие основывается за счет команды профессионалов в сфере безопасности труда.
-              </p>
-            </div>
-            <div class="about__column-icon">
-              <ul class="about__column-icon-list d-flex">
-                <li class="about__column-icon-list-item about__column-icon-list-item_1">Гарантии качества</li>
-                <li class="about__column-icon-list-item about__column-icon-list-item_2">Профессионализм</li>
-                <li class="about__column-icon-list-item about__column-icon-list-item_3">Профессионализм</li>
-                <li class="about__column-icon-list-item about__column-icon-list-item_4">Работа по договору</li>
-                <li class="about__column-icon-list-item about__column-icon-list-item_5">Большой опыт работы</li>
-              </ul>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section id="advant" class="advant">
-        <div class="_container">
-          <h2 class="advant__title title">Наши преимущества</h2>
-          <div class="advant__wrap d-flex">
-
-            <div class="advant__column">
-              <div class="advant__card">
-                <div class="advant__card-name d-flex">
-                  <div class="advant__card-icon advant__card-icon_01"></div>
-                  <h4 class="advant__card-title">
-                    Качество <br>
-                    услуг
-                  </h4>
-                </div>
-                <p class="advant__card-text">
-                  Правильно разработанные документы
-                  и мероприятия, устранят риск
-                  возникновения штрафных санкций
-                  органов контролирующих.
-                </p>
-              </div>
-            </div>
-
-            <div class="advant__column">
-              <div class="advant__card">
-                <div class="advant__card-name d-flex">
-                  <div class="advant__card-icon advant__card-icon_02"></div>
-                  <h4 class="advant__card-title">
-                    Доступные <br>
-                    цены
-                  </h4>
-                </div>
-                <p class="advant__card-text">
-                  Мы дорожим своими клиентами, поэтому 
-                  несем ответственность за результат 
-                  своей работы.
-                </p>
-              </div>
-            </div>
-
-            <div class="advant__column">
-              <div class="advant__card">
-                <div class="advant__card-name d-flex">
-                  <div class="advant__card-icon advant__card-icon_03"></div>
-                  <h4 class="advant__card-title">
-                    Гарантия <br>
-                    за работу
-                  </h4>
-                </div>
-                <p class="advant__card-text">
-                  ООО "Управление Безопасности" 
-                  аккредитована в Министерстве Труда на 
-                  право оказание услуг в области охраны 
-                  труда. Номер в реестре 6480.
-                </p>
-              </div>
-            </div>
-
-            <div class="advant__column">
-              <div class="advant__card">
-                <div class="advant__card-name d-flex">
-                  <div class="advant__card-icon advant__card-icon_04"></div>
-                  <h4 class="advant__card-title">
-                    Высокий уровень <br>
-                    экспертов
-                  </h4>
-                </div>
-                <p class="advant__card-text">
-                  Правильно разработанные документы 
-                  и мероприятия, устранят риск 
-                  возникновения штрафных санкций 
-                  органов контролирующих.
-                </p>
-              </div>
-            </div>
-
-            <div class="advant__column">
-              <div class="advant__card">
-                <div class="advant__card-name d-flex">
-                  <div class="advant__card-icon advant__card-icon_05"></div>
-                  <h4 class="advant__card-title">
-                    Минимальный риск <br>
-                    для бизнеса 
-                  </h4>
-                </div>
-                <p class="advant__card-text">
-                  Мы дорожим своими клиентами, поэтому 
-                  несем ответственность за результат 
-                  своей работы.
-                </p>
-              </div>
-            </div>
-
-            <div class="advant__column">
-              <div class="advant__card">
-                <div class="advant__card-name d-flex">
-                  <div class="advant__card-icon advant__card-icon_06"></div>
-                  <h4 class="advant__card-title">
-                    Наличие <br>
-                    аккредитации
-                  </h4>
-                </div>
-                <p class="advant__card-text">
-                  ООО "Управление Безопасности" 
-                  аккредитована в Министерстве Труда на 
-                  право оказание услуг в области охраны 
-                  труда. Номер в реестре 6480.
-                </p>
-              </div>
-            </div>
-
-          </div>
-        </div>
-      </section>
-
-      <section id="licenses" class="licenses">
-        <div class="_container">
-
-          <div class="slider-title d-flex">
-            <h2 class="slider-title__title title">Лицензии и аккредитации</h2>
-            <div class="swiper-button-block">
-              <div class="swiper-button swiper-button-next licenses-sl-next"></div>
-              <div class="swiper-button swiper-button-prev licenses-sl-prev"></div>
-            </div>
-          </div>
-
-          <div class="licenses-sl slider _swiper">
-            <div class="licenses-sl__slider-slide slider-slide">
-              <img src="img/licenses/01.jpg" alt="">
-            </div>
-            <div class="licenses-sl__slider-slide slider-slide">
-              <img src="img/licenses/02.jpg" alt="">
-            </div>
-            <div class="licenses-sl__slider-slide slider-slide">
-              <img src="img/licenses/03.jpg" alt="">
-            </div>
-            <div class="licenses-sl__slider-slide slider-slide">
-              <img src="img/licenses/04.jpg" alt="">
-            </div>
-            <div class="licenses-sl__slider-slide slider-slide">
-              <img src="img/licenses/05.jpg" alt="">
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section id="clients" class="clients">
-        <div class="_container">
-
-          <div class="slider-title d-flex">
-            <h2 class="slider-title__title title">Наши клиенты и партнеры</h2>
-            <div class="swiper-button-block">
-              <div class="swiper-button swiper-button-next clients-sl-next"></div>
-              <div class="swiper-button swiper-button-prev clients-sl-prev"></div>
-            </div>
-          </div>
-
-          <div class="clients-sl slider _swiper">
-            <div class="clients-sl__slider-slide slider-slide">
-              <div class="clients-sl__img">
-                <img src="img/clients/01.jpg" alt="">
-              </div>
-            </div>
-            <div class="clients-sl__slider-slide slider-slide">
-              <div class="clients-sl__img">
-                <img src="img/clients/02.jpg" alt="">
-              </div>
-            </div>
-            <div class="clients-sl__slider-slide slider-slide">
-              <div class="clients-sl__img">
-                <img src="img/clients/03.jpg" alt="">
-              </div>
-            </div>
-            <div class="clients-sl__slider-slide slider-slide">
-              <div class="clients-sl__img">
-                <img src="img/clients/04.jpg" alt="">
-              </div>
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-      <section id="news" class="news">
-        <div class="_container">
-          <h2 class="news__title title">Новости</h2>
-
-          <div class="news__wrap">
-
-            <div class="news__column">
-              <div class="card-news">
-                <div class="card-news__img">
-                  <img src="img/news/01.jpg" alt="">
-                </div>
-                <div class="card-news__descp">
-                  <p class="card-news__descp-date">24.11.2021</p>
-                  <h4 class="card-news__descp-title">
-                    Система сохранения жизни и 
-                    здоровья работников в процессе 
-                    трудовой деятельности
-                  </h4>
-                  <p class="card-news__descp-subtitle">
-                    Охрана труда по своей сути представляет набор 
-                    обязательных для исполнения работодателями 
-                    мероприятий, таких как обучение по охране...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="news__column">
-              <div class="card-news">
-                <div class="card-news__img">
-                  <img src="img/news/02.jpg" alt="">
-                </div>
-                <div class="card-news__descp">
-                  <p class="card-news__descp-date">24.11.2021</p>
-                  <h4 class="card-news__descp-title">
-                    Профилактическая медицина, 
-                    изучающая условия и характер труда
-                  </h4>
-                  <p class="card-news__descp-subtitle">
-                    Занимается вопросами обеспечения безопасности 
-                    производственного процесса, продукции, сырья и 
-                    поэтому не может служить интересам сохране...
-                  </p>
-                </div>
-              </div>
-            </div>
-            <div class="news__column">
-              <div class="card-news">
-                <div class="card-news__img">
-                  <img src="img/news/03.jpg" alt="">
-                </div>
-                <div class="card-news__descp">
-                  <p class="card-news__descp-date">24.11.2021</p>
-                  <h4 class="card-news__descp-title">
-                    Работник имеет права и гарантии 
-                    права на безопасные и здоровые 
-                    условия труда
-                  </h4>
-                  <p class="card-news__descp-subtitle">
-                    Федеральная инспекция труда контролирует 
-                    выполнение законодательства, всех норм и 
-                    правил по охране труда. Государственный сани...
-                  </p>
-                </div>
-              </div>
-            </div>
-
-          </div>
-
-        </div>
-      </section>
-
-      <section id="reviews" class="reviews">
-        <div class="_container">
-
-          <div class="slider-title d-flex">
-            <h2 class="slider-title__title title">Отзывы клиентов</h2>
-            <div class="swiper-button-block">
-              <div class="swiper-button swiper-button-next reviews-sl-next"></div>
-              <div class="swiper-button swiper-button-prev reviews-sl-prev"></div>
-            </div>
-          </div>
-
-          <div class="reviews-sl slider _swiper">
-            <div class="reviews-sl__slider-slide slider-slide">
-              <img src="img/reviews/01.jpg" alt="">
-            </div>
-            <div class="reviews-sl__slider-slide slider-slide">
-              <img src="img/reviews/02.jpg" alt="">
-            </div>
-            <div class="reviews-sl__slider-slide slider-slide">
-              <img src="img/reviews/03.jpg" alt="">
-            </div>
-            <div class="reviews-sl__slider-slide slider-slide">
-              <img src="img/reviews/04.jpg" alt="">
-            </div>
-            <div class="reviews-sl__slider-slide slider-slide">
-              <img src="img/reviews/05.jpg" alt="">
-            </div>
-            <div class="reviews-sl__slider-slide slider-slide">
-              <img src="img/reviews/06.jpg" alt="">
-            </div>
-          </div>
-
-        </div>
-      </section>
-
-    </main>
-    <footer id="footer" class="footer">
-  <div class="footer__container _container">
-
-    <div class="footer__row d-flex">
-
-      <a href="index.html" class="logo-icon footer__logo">
-        <!-- <? bloginfo("url"); ?> -->
-      </a>
-
-      <ul class="footer__menu">
-        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Главная</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Наши клиенты и партнеры</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">О нас</a></li>
-        <li class="footer__menu-item"><a href="services.html" class="footer__menu-item-link">Услуги</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Акции</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Отзывы</a></li>
-        <li class="footer__menu-item"><a href="security.html" class="footer__menu-item-link">Аккредитации и лицензии</a></li>
-        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Контакты</a></li>
-      </ul>
-
-      <div class="footer__address">
-        <p class="footer__address-text">г. Курск, ул.1-я Пушкарная, д. 28</p>
-        <a href="mailto:ros-trud@mail.ru" class="footer__address-email">ros-trud@mail.ru</a>
-      </div>
-
-      <div class="footer__contacts">
-        <a href="tel:+74712550286" class="footer__contacts-phone">+7 (4712) 55-02-86</a>
-        <a href="tel:+79513106993" class="footer__contacts-phone">+7 (951) 310-69-93</a>
-        <a href="#callback" class="footer__popup-link btn _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>
-      </div>
-
-    </div>
-
-  </div>
-</footer>
-  </div>
-  <!-- Popup-с формой -->
-<div class="popup popup_callback">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-			<div class="popup__item d-flex">
-				<div class="popup__img">
-					<img src="img/popup.jpg" alt="">
-				</div>
-				<div class="popup__form-block">
-					<h2>Заказать звонок</h2>
-					<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>
-					<form action="#" class="form">
-						<div class="form__line">
-							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Имя"
-								class="popup__form-input input _req">
-							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Телефон"
-								class="popup__form-input input _phone _req">
-							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Email"
-								class="popup__form-input input _email _req">
-						</div>
-						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой
-								конфиденциальности</a></p>
-						<button class="popup__form-btn form__btn btn">Заказать</button>
-					</form>
-				</div>
-			</div>
-		</div>
-	</div>
-</div>
-
-<!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> -->
-<!-- =============================================================================================================================== -->
-
-
-<div class="popup popup_popup">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-		</div>
-	</div>
-</div>
-<!-- =============================================================================================================================== -->
-
-<div class="popup popup_massagename-message">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close" aria-label="Закрыть модальное окно"></div>
-		</div>
-	</div>
-</div>
-<!-- =============================================================================================================================== -->
-
-<div class="popup popup_video">
-	<div class="popup__content">
-		<div class="popup__body">
-			<div class="popup__close popup__close_video" aria-label="Закрыть модальное окно"></div>
-			<div class="popup__video _video"></div>
-		</div>
-	</div>
-</div>
-<!-- <a href="#video" data-video="stFOy0Noahg" class=" _popup-link">Открыть видео</a> -->
-<!-- =============================================================================================================================== -->
-
-<!-- Popup-CSS -->
-<!-- <div id="popup-2" class="popup-2">
-	<a href="#" class="popup__area-2"></a>
-	<div class="popup__body-2">
-		<div class="popup__content-2">
-
-			<a href="#" class="popup__close-2">Close</a>
-			<div class="popup__title">Заказать ворота Дешево!</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-			<div class="popup__text">
-				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний
-				Алютех и REHAU и Авелор
-			</div>
-
-		</div>
-	</div>
-</div> -->
-<!-- <a href="#popup-2" class="heading-info__button popup-link"></a> -->
-  <!-- Swiper -->
-<!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> -->
-<!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script> -->
-<script src="js/vendors.min.js"></script>
-<script src="js/app.min.js"></script>
-</body>
-
-</html>
+<!DOCTYPE html><html lang="ru"><head>	<title>Главная</title>	<meta charset="UTF-8">	<meta name="format-detection" content="telephone=no">	<link rel="stylesheet" href="css/style.min.css?_v=20211214163604">	<!-- <link rel="stylesheet" href="css/fancybox.css?_v=20211214163604"> -->	<link rel="icon" type="image/png" href="img/favicons/icon256.png" sizes="256x256">	<link rel="icon" type="image/png" href="img/favicons/icon128.png" sizes="128x128">	<link rel="icon" type="image/png" href="img/favicons/icon64.png" sizes="64x64">	<link rel="icon" type="image/png" href="img/favicons/icon32.png" sizes="32x32">	<link rel="icon" type="image/png" href="img/favicons/icon16.png" sizes="16x16">	<link rel="icon" type="image/png" href="img/favicons/icon.svg" sizes="any">	<link rel="shortcut icon" href="favicon.ico">	<!-- <meta name="robots" content="noindex, nofollow"> -->	<!-- <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0"> -->	<meta name="viewport" content="width=device-width, initial-scale=1.0"></head><body>  <div class="wrapper">    <header id="header" class="header">  <div class="header__navigation">    <div class="header__navigation-container _container">      <a href="index.html" class="logo-icon header__logo">        <!-- <? bloginfo("url"); ?> -->      </a>      <p class="header__address">г. Курск, ул.1-я Пушкарная, д. 28</p>      <a href="mailto:ros-trud@mail.ru" class="header__mail">ros-trud@mail.ru</a>       <div class="header__soc-block">        <div class="header__soc-block-icon soc-block-icon">          <a href="#" class="soc-block-icon__link soc-block-icon__link_1"></a>          <a href="#" class="soc-block-icon__link soc-block-icon__link_2"></a>          <a href="#" class="soc-block-icon__link soc-block-icon__link_3"></a>          <a href="#" class="soc-block-icon__link soc-block-icon__link_4"></a>        </div>        <p class="header__soc-block-text">МЫ В СОЦСЕТЯХ</p>      </div>      <div class="header__contacts d-flex">        <a href="tel:+74712550286" class="header__phone">+7 (4712) 55-02-86</a>        <!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>"><? echo $tel = carbon_get_theme_option("as_phone_1"); ?></a> -->        <a href="#callback" class="header__callback btn _popup-link">ЗАКАЗКАТЬ ЗВОНОК</a>      </div>      <a href="tel:+74712550286" class="mob-phone-icon header__mob-phone-icon"></a>      <!-- <a href="tel:<? echo preg_replace('/[^0-9]/', '', $tel); ?>" class="mob-callback__phone"></a> -->      <div class="icon-menu" aria-label="Бургер меню">        <span></span>        <span></span>        <span></span>      </div>    </div>  </div>  <div class="header__menu">    <div class="header__menu-container _container">      <ul class="menu-list header__menu-list d-flex">        <li class="menu-list__item"><a href="#" class="menu-list__link">Главная</a></li>        <li class="menu-list__item"><a href="#" class="menu-list__link">О нас</a></li>        <li class="menu-list__item"><a href="#" class="menu-list__link">Акции</a></li>        <li class="menu-list__item"><a href="security.html" class="menu-list__link">Аккредитации и лицензии</a></li>        <li class="menu-list__item"><a href="#" class="menu-list__link">Наши клиенты и партнеры</a></li>        <li class="menu-list__item"><a href="services.html" class="menu-list__link">Услуги</a></li>        <li class="menu-list__item"><a href="#" class="menu-list__link">Отзывы</a></li>        <li class="menu-list__item"><a href="#" class="menu-list__link">Контакты</a></li>      </ul>      <!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'menu__list',        'container_class' => 'menu__list','container' => false )); ?>  -->      </div>    </div>  </header>  <!-- Мобильное меню -->  <div class="mob-menu header__mob-menu">    <ul class="mob-menu__list">      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Главная</a></li>      <li class="mob-menu__item"><a href="#" class="mob-menu__link">О нас</a></li>      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Акции</a></li>      <li class="mob-menu__item"><a href="security.html" class="mob-menu__link">Аккредитации и лицензии</a></li>      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Наши клиенты и партнеры</a></li>      <li class="mob-menu__item"><a href="services.html" class="mob-menu__link">Услуги</a></li>      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Отзывы</a></li>      <li class="mob-menu__item"><a href="#" class="mob-menu__link">Контакты</a></li>    </ul>    <div class="header__soc-block header__soc-block_mob">      <div class="header__soc-block-icon soc-block-icon">        <a href="#" class="soc-block-icon__link soc-block-icon__link_1"></a>        <a href="#" class="soc-block-icon__link soc-block-icon__link_2"></a>        <a href="#" class="soc-block-icon__link soc-block-icon__link_3"></a>        <a href="#" class="soc-block-icon__link soc-block-icon__link_4"></a>      </div>      <p class="header__soc-block-text">МЫ В СОЦСЕТЯХ</p>    </div>  <!-- <?php wp_nav_menu( array('theme_location' => 'menu_main','menu_class' => 'mob-menu__list',    'container_class' => 'mob-menu__list','container' => false )); ?>  -->    <a href="#callback" class="header__popup-link header__popup-link_mob btn _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>  </div>     <main class="page">      <section id="slider-main" class="slider-main">        <div class="slider-bg-wrap">            <div class="slider-bg _swiper">            <div class="slider-bg__slide slider__slide slider-main__slide">              <div class="nuar_blk"></div>              <div class="slider-bg__container _container">                 <h1 class="slider-bg__title">                  УСЛУГИ ПО АУТСОРСИНГУ <br>                  ОХРАНЫ ТРУДА                </h1>                <p class="slider-bg__subtitle">                  Услуга, которая позволит Вам сократить расходы <br>                  на содержание в штате специалиста по охране труда                </p>              </div>            </div>          </div>          <div class="slider-bg__swiper-button-block swiper-button-block">            <div class="_container">              <div class="swiper-button swiper-button-next slider-main-next"></div>              <div class="swiper-button swiper-button-prev slider-main-prev"></div>            </div>          </div>        </div>      </section>      <section id="about" class="about">        <div class="_container">          <h2 class="about__title">            ООО «Рос.Труд» услуги в области охраны труда, <br>            промышленной, пожарной безопасности, ГО ЧС          </h2>          <div class="about__subtitle">            <p>              Наша компания более уже более 8 лет работает на рынке города и области! У нас              работают ПРОФЕССИОНАЛЫ. Построим и запустим систему охрану труда любой сложности в кратчайшие сроки.              Проводим консультации. Мы придерживаемся гибкой ценовой политики. Индивидуально подберем наиболее выгодную              для Вас форму сотрудничества. Дополнительно наши клиенты получают особые условия сотрудничества по всем              обязательным по законодательству РФ мероприятиям в области охране труда от партнерских организаций              (учебные              центры, аттестующие организации, магазины спецодежды, медучреждения и т.д.). Звоните, и наши специалисты              ответят на все Ваши вопросы.            </p>          </div>          <div class="about__row d-flex">            <div class="about__column-text">              <h2 class="about__column-text-title">                Наша цель - долгосрочные <br>                партнерские отношения              </h2>              <p class="about__column-text-subtitle">                Мы динамично развивающаяся компания в сфере охраны труда и промышленной безопасности.                Наше быстрое развитие основывается за счет команды профессионалов в сфере безопасности труда.              </p>            </div>            <div class="about__column-icon">              <ul class="about__column-icon-list d-flex">                <li class="about__column-icon-list-item about__column-icon-list-item_1">Гарантии качества</li>                <li class="about__column-icon-list-item about__column-icon-list-item_2">Профессионализм</li>                <li class="about__column-icon-list-item about__column-icon-list-item_3">Профессионализм</li>                <li class="about__column-icon-list-item about__column-icon-list-item_4">Работа по договору</li>                <li class="about__column-icon-list-item about__column-icon-list-item_5">Большой опыт работы</li>              </ul>            </div>          </div>        </div>      </section>      <section id="advant" class="advant">        <div class="_container">          <h2 class="advant__title title">Наши преимущества</h2>          <div class="advant__wrap d-flex">            <div class="advant__column">              <div class="advant__card">                <div class="advant__card-name d-flex">                  <div class="advant__card-icon advant__card-icon_01"></div>                  <h4 class="advant__card-title">                    Качество <br>                    услуг                  </h4>                </div>                <p class="advant__card-text">                  Правильно разработанные документы                  и мероприятия, устранят риск                  возникновения штрафных санкций                  органов контролирующих.                </p>              </div>            </div>            <div class="advant__column">              <div class="advant__card">                <div class="advant__card-name d-flex">                  <div class="advant__card-icon advant__card-icon_02"></div>                  <h4 class="advant__card-title">                    Доступные <br>                    цены                  </h4>                </div>                <p class="advant__card-text">                  Мы дорожим своими клиентами, поэтому                   несем ответственность за результат                   своей работы.                </p>              </div>            </div>            <div class="advant__column">              <div class="advant__card">                <div class="advant__card-name d-flex">                  <div class="advant__card-icon advant__card-icon_03"></div>                  <h4 class="advant__card-title">                    Гарантия <br>                    за работу                  </h4>                </div>                <p class="advant__card-text">                  ООО "Управление Безопасности"                   аккредитована в Министерстве Труда на                   право оказание услуг в области охраны                   труда. Номер в реестре 6480.                </p>              </div>            </div>            <div class="advant__column">              <div class="advant__card">                <div class="advant__card-name d-flex">                  <div class="advant__card-icon advant__card-icon_04"></div>                  <h4 class="advant__card-title">                    Высокий уровень <br>                    экспертов                  </h4>                </div>                <p class="advant__card-text">                  Правильно разработанные документы                   и мероприятия, устранят риск                   возникновения штрафных санкций                   органов контролирующих.                </p>              </div>            </div>            <div class="advant__column">              <div class="advant__card">                <div class="advant__card-name d-flex">                  <div class="advant__card-icon advant__card-icon_05"></div>                  <h4 class="advant__card-title">                    Минимальный риск <br>                    для бизнеса                   </h4>                </div>                <p class="advant__card-text">                  Мы дорожим своими клиентами, поэтому                   несем ответственность за результат                   своей работы.                </p>              </div>            </div>            <div class="advant__column">              <div class="advant__card">                <div class="advant__card-name d-flex">                  <div class="advant__card-icon advant__card-icon_06"></div>                  <h4 class="advant__card-title">                    Наличие <br>                    аккредитации                  </h4>                </div>                <p class="advant__card-text">                  ООО "Управление Безопасности"                   аккредитована в Министерстве Труда на                   право оказание услуг в области охраны                   труда. Номер в реестре 6480.                </p>              </div>            </div>          </div>        </div>      </section>      <section id="licenses" class="licenses">        <div class="_container">          <div class="slider-title d-flex">            <h2 class="slider-title__title title">Лицензии и аккредитации</h2>            <div class="swiper-button-block">              <div class="swiper-button swiper-button-next licenses-sl-next"></div>              <div class="swiper-button swiper-button-prev licenses-sl-prev"></div>            </div>          </div>          <div class="licenses-sl slider _swiper">            <div class="licenses-sl__slider-slide slider-slide">              <picture><source srcset="img/licenses/01.webp" type="image/webp"><img src="img/licenses/01.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="licenses-sl__slider-slide slider-slide">              <picture><source srcset="img/licenses/02.webp" type="image/webp"><img src="img/licenses/02.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="licenses-sl__slider-slide slider-slide">              <picture><source srcset="img/licenses/03.webp" type="image/webp"><img src="img/licenses/03.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="licenses-sl__slider-slide slider-slide">              <picture><source srcset="img/licenses/04.webp" type="image/webp"><img src="img/licenses/04.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="licenses-sl__slider-slide slider-slide">              <picture><source srcset="img/licenses/05.webp" type="image/webp"><img src="img/licenses/05.jpg?_v=1639488964893" alt=""></picture>            </div>          </div>        </div>      </section>      <section id="clients" class="clients">        <div class="_container">          <div class="slider-title d-flex">            <h2 class="slider-title__title title">Наши клиенты и партнеры</h2>            <div class="swiper-button-block">              <div class="swiper-button swiper-button-next clients-sl-next"></div>              <div class="swiper-button swiper-button-prev clients-sl-prev"></div>            </div>          </div>          <div class="clients-sl slider _swiper">            <div class="clients-sl__slider-slide slider-slide">              <div class="clients-sl__img">                <picture><source srcset="img/clients/01.webp" type="image/webp"><img src="img/clients/01.jpg?_v=1639488964893" alt=""></picture>              </div>            </div>            <div class="clients-sl__slider-slide slider-slide">              <div class="clients-sl__img">                <picture><source srcset="img/clients/02.webp" type="image/webp"><img src="img/clients/02.jpg?_v=1639488964893" alt=""></picture>              </div>            </div>            <div class="clients-sl__slider-slide slider-slide">              <div class="clients-sl__img">                <picture><source srcset="img/clients/03.webp" type="image/webp"><img src="img/clients/03.jpg?_v=1639488964893" alt=""></picture>              </div>            </div>            <div class="clients-sl__slider-slide slider-slide">              <div class="clients-sl__img">                <picture><source srcset="img/clients/04.webp" type="image/webp"><img src="img/clients/04.jpg?_v=1639488964893" alt=""></picture>              </div>            </div>          </div>        </div>      </section>      <section id="news" class="news">        <div class="_container">          <h2 class="news__title title">Новости</h2>          <div class="news__wrap">            <div class="news__column">              <div class="card-news">                <div class="card-news__img">                  <picture><source srcset="img/news/01.webp" type="image/webp"><img src="img/news/01.jpg?_v=1639488964893" alt=""></picture>                </div>                <div class="card-news__descp">                  <p class="card-news__descp-date">24.11.2021</p>                  <h4 class="card-news__descp-title">                    Система сохранения жизни и                     здоровья работников в процессе                     трудовой деятельности                  </h4>                  <p class="card-news__descp-subtitle">                    Охрана труда по своей сути представляет набор                     обязательных для исполнения работодателями                     мероприятий, таких как обучение по охране...                  </p>                </div>              </div>            </div>            <div class="news__column">              <div class="card-news">                <div class="card-news__img">                  <picture><source srcset="img/news/02.webp" type="image/webp"><img src="img/news/02.jpg?_v=1639488964893" alt=""></picture>                </div>                <div class="card-news__descp">                  <p class="card-news__descp-date">24.11.2021</p>                  <h4 class="card-news__descp-title">                    Профилактическая медицина,                     изучающая условия и характер труда                  </h4>                  <p class="card-news__descp-subtitle">                    Занимается вопросами обеспечения безопасности                     производственного процесса, продукции, сырья и                     поэтому не может служить интересам сохране...                  </p>                </div>              </div>            </div>            <div class="news__column">              <div class="card-news">                <div class="card-news__img">                  <picture><source srcset="img/news/03.webp" type="image/webp"><img src="img/news/03.jpg?_v=1639488964893" alt=""></picture>                </div>                <div class="card-news__descp">                  <p class="card-news__descp-date">24.11.2021</p>                  <h4 class="card-news__descp-title">                    Работник имеет права и гарантии                     права на безопасные и здоровые                     условия труда                  </h4>                  <p class="card-news__descp-subtitle">                    Федеральная инспекция труда контролирует                     выполнение законодательства, всех норм и                     правил по охране труда. Государственный сани...                  </p>                </div>              </div>            </div>          </div>        </div>      </section>      <section id="reviews" class="reviews">        <div class="_container">          <div class="slider-title d-flex">            <h2 class="slider-title__title title">Отзывы клиентов</h2>            <div class="swiper-button-block">              <div class="swiper-button swiper-button-next reviews-sl-next"></div>              <div class="swiper-button swiper-button-prev reviews-sl-prev"></div>            </div>          </div>          <div class="reviews-sl slider _swiper">            <div class="reviews-sl__slider-slide slider-slide">              <picture><source srcset="img/reviews/01.webp" type="image/webp"><img src="img/reviews/01.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="reviews-sl__slider-slide slider-slide">              <picture><source srcset="img/reviews/02.webp" type="image/webp"><img src="img/reviews/02.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="reviews-sl__slider-slide slider-slide">              <picture><source srcset="img/reviews/03.webp" type="image/webp"><img src="img/reviews/03.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="reviews-sl__slider-slide slider-slide">              <picture><source srcset="img/reviews/04.webp" type="image/webp"><img src="img/reviews/04.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="reviews-sl__slider-slide slider-slide">              <picture><source srcset="img/reviews/05.webp" type="image/webp"><img src="img/reviews/05.jpg?_v=1639488964893" alt=""></picture>            </div>            <div class="reviews-sl__slider-slide slider-slide">              <picture><source srcset="img/reviews/06.webp" type="image/webp"><img src="img/reviews/06.jpg?_v=1639488964893" alt=""></picture>            </div>          </div>        </div>      </section>    </main>    <footer id="footer" class="footer">  <div class="footer__container _container">    <div class="footer__row d-flex">      <a href="index.html" class="logo-icon footer__logo">        <!-- <? bloginfo("url"); ?> -->      </a>      <ul class="footer__menu">        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Главная</a></li>        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Наши клиенты и партнеры</a></li>        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">О нас</a></li>        <li class="footer__menu-item"><a href="services.html" class="footer__menu-item-link">Услуги</a></li>        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Акции</a></li>        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Отзывы</a></li>        <li class="footer__menu-item"><a href="security.html" class="footer__menu-item-link">Аккредитации и лицензии</a></li>        <li class="footer__menu-item"><a href="#" class="footer__menu-item-link">Контакты</a></li>      </ul>      <div class="footer__address">        <p class="footer__address-text">г. Курск, ул.1-я Пушкарная, д. 28</p>        <a href="mailto:ros-trud@mail.ru" class="footer__address-email">ros-trud@mail.ru</a>      </div>      <div class="footer__contacts">        <a href="tel:+74712550286" class="footer__contacts-phone">+7 (4712) 55-02-86</a>        <a href="tel:+79513106993" class="footer__contacts-phone">+7 (951) 310-69-93</a>        <a href="#callback" class="footer__popup-link btn _popup-link">ЗАКАЗАТЬ ЗВОНОК</a>      </div>    </div>  </div></footer>  </div>  <!-- Popup-с формой --><div class="popup popup_callback">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close" aria-label="Закрыть модальное окно"></div>			<div class="popup__item d-flex">				<div class="popup__img">					<picture><source srcset="img/popup.webp" type="image/webp"><img src="img/popup.jpg?_v=1639488964893" alt=""></picture>				</div>				<div class="popup__form-block">					<h2>Заказать звонок</h2>					<p class="popup__notific">Оставьте заявку и мы свяжемся с Вами в течении 15 минут</p>					<form action="#" class="form">						<div class="form__line">							<input id="name" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Имя"								class="popup__form-input input _req">							<input id="tel2" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Телефон"								class="popup__form-input input _phone _req">							<input id="email" autocomplete="off" type="text" name="form[]" data-error="Заполните поля" data-value="Email"								class="popup__form-input input _email _req">						</div>						<p class="popup__policy">Заполняя данную форму вы соглашаетесь с <a href="#">политикой								конфиденциальности</a></p>						<button class="popup__form-btn form__btn btn">Заказать</button>					</form>				</div>			</div>		</div>	</div></div><!-- <a href="#callback" class="header__popup-link _popup-link">ЗАКАЗАТЬ ЗВОНОК</a> --><!-- =============================================================================================================================== --><div class="popup popup_popup">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close" aria-label="Закрыть модальное окно"></div>		</div>	</div></div><!-- =============================================================================================================================== --><div class="popup popup_massagename-message">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close" aria-label="Закрыть модальное окно"></div>		</div>	</div></div><!-- =============================================================================================================================== --><div class="popup popup_video">	<div class="popup__content">		<div class="popup__body">			<div class="popup__close popup__close_video" aria-label="Закрыть модальное окно"></div>			<div class="popup__video _video"></div>		</div>	</div></div><!-- <a href="#video" data-video="stFOy0Noahg" class=" _popup-link">Открыть видео</a> --><!-- =============================================================================================================================== --><!-- Popup-CSS --><!-- <div id="popup-2" class="popup-2">	<a href="#" class="popup__area-2"></a>	<div class="popup__body-2">		<div class="popup__content-2">			<a href="#" class="popup__close-2">Close</a>			<div class="popup__title">Заказать ворота Дешево!</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>			<div class="popup__text">				Автоматики для ворот, роллет и фасадных конструкций. Официальный представитель компаний				Алютех и REHAU и Авелор			</div>		</div>	</div></div> --><!-- <a href="#popup-2" class="heading-info__button popup-link"></a> -->  <!-- Swiper --><!-- <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script> --><!-- <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU"></script> --><script src="js/vendors.min.js?_v=20211214163604"></script><script src="js/app.min.js?_v=20211214163604"></script></body></html>
