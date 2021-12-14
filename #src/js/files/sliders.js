@@ -134,8 +134,8 @@ let licenses_sl = new Swiper('.licenses-sl', {
 
   observer: true,
   observeParents: true,
-  slidesPerView: 10,
-  spaceBetween: 30,
+  slidesPerView: 2,
+  spaceBetween: 23,
   // autoHeight: true,
   speed: 2000,
   //touchRatio: 0,
@@ -153,27 +153,27 @@ let licenses_sl = new Swiper('.licenses-sl', {
     nextEl: '.licenses-sl-next',
     prevEl: '.licenses-sl-prev',
   },
-  /*
+  
   breakpoints: {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 0,
-      autoHeight: true,
-    },
+    // 320: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 0,
+    //   autoHeight: true,
+    // },
     768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    992: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
-    1268: {
+    1024: {
       slidesPerView: 4,
-      spaceBetween: 30,
+      // spaceBetween: 20,
+    },
+    1280: {
+      slidesPerView: 5,
+      // spaceBetween: 30,
     },
   },
-  */
+  
   on: {
     lazyImageReady: function () {
       ibg();
@@ -197,8 +197,8 @@ let reviews_sl = new Swiper('.reviews-sl', {
 
   observer: true,
   observeParents: true,
-  slidesPerView: 6,
-  spaceBetween: 30,
+  slidesPerView: 2,
+  spaceBetween: 28,
   // autoHeight: true,
   speed: 2000,
   //touchRatio: 0,
@@ -216,27 +216,27 @@ let reviews_sl = new Swiper('.reviews-sl', {
     nextEl: '.reviews-sl-next',
     prevEl: '.reviews-sl-prev',
   },
-  /*
+  
   breakpoints: {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 0,
-      autoHeight: true,
-    },
+    // 320: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 0,
+    //   autoHeight: true,
+    // },
     768: {
-      slidesPerView: 2,
-      spaceBetween: 20,
-    },
-    992: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
-    1268: {
+    1024: {
       slidesPerView: 4,
-      spaceBetween: 30,
+      // spaceBetween: 20,
+    },
+    1280: {
+      slidesPerView: 6,
+      // spaceBetween: 30,
     },
   },
-  */
+  
   on: {
     lazyImageReady: function () {
       ibg();
@@ -260,7 +260,7 @@ let clients_sl = new Swiper('.clients-sl', {
 
   observer: true,
   observeParents: true,
-  slidesPerView: 4,
+  slidesPerView: 1,
   spaceBetween: 30,
   // autoHeight: true,
   speed: 2000,
@@ -279,27 +279,27 @@ let clients_sl = new Swiper('.clients-sl', {
     nextEl: '.clients-sl-next',
     prevEl: '.clients-sl-prev',
   },
-  /*
+  
   breakpoints: {
-    320: {
-      slidesPerView: 1,
-      spaceBetween: 0,
-      autoHeight: true,
-    },
+    // 320: {
+    //   slidesPerView: 1,
+    //   spaceBetween: 0,
+    //   autoHeight: true,
+    // },
     768: {
       slidesPerView: 2,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
-    992: {
+    1024: {
       slidesPerView: 3,
-      spaceBetween: 20,
+      // spaceBetween: 20,
     },
-    1268: {
+    1280: {
       slidesPerView: 4,
-      spaceBetween: 30,
+      // spaceBetween: 30,
     },
   },
-  */
+  
   on: {
     lazyImageReady: function () {
       ibg();
