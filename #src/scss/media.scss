@@ -82,11 +82,11 @@
 @media (max-width: 860px) {
 	.services__column {
     flex: 0 1 50%;}
+  .header__mail {
+    display: none;}
 }
 
 @media (max-width: 812px) {
-	.header__mail {
-		display: none;}
 	.news__column {
     flex: 0 1 50%;}
   .security__wrap {
@@ -281,6 +281,8 @@
     flex: 0 0 55%;}
    .tariff-plans__column {
     flex: 0 0 43%;}
+  .header__address:before {
+    display: none;}
 }
 
 @media (max-width: 540px) {
@@ -387,6 +389,11 @@
    .tariff-plans__column {
     flex: 0 0 75%;}
 }
+
+// @media (max-width: 360px) {
+//   .licenses-sl__slider-slide {
+//     height: 250px;}
+// }
 
 @media (max-width: 340px) {
 	.about__column-icon-list-item {

@@ -134,8 +134,8 @@ let licenses_sl = new Swiper('.licenses-sl', {
 
   observer: true,
   observeParents: true,
-  slidesPerView: 2,
-  spaceBetween: 23,
+  slidesPerView: 1.8,
+  spaceBetween: 15,
   // autoHeight: true,
   speed: 2000,
   //touchRatio: 0,
@@ -155,22 +155,27 @@ let licenses_sl = new Swiper('.licenses-sl', {
   },
   
   breakpoints: {
-    // 320: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 0,
-    //   autoHeight: true,
-    // },
+    360: {
+      slidesPerView: 2.5,
+      spaceBetween: 10,
+    },
+    540: {
+      slidesPerView: 3.5,
+      spaceBetween: 15,
+    },
     768: {
-      slidesPerView: 3,
-      // spaceBetween: 20,
+      slidesPerView: 3.8,
     },
     1024: {
-      slidesPerView: 4,
-      // spaceBetween: 20,
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
+    1100: {
+      spaceBetween: 20,
     },
     1280: {
       slidesPerView: 5,
-      // spaceBetween: 30,
+      spaceBetween: 23,
     },
   },
   
@@ -197,8 +202,8 @@ let reviews_sl = new Swiper('.reviews-sl', {
 
   observer: true,
   observeParents: true,
-  slidesPerView: 2,
-  spaceBetween: 28,
+  slidesPerView: 1.8,
+  spaceBetween: 15,
   // autoHeight: true,
   speed: 2000,
   //touchRatio: 0,
@@ -218,22 +223,27 @@ let reviews_sl = new Swiper('.reviews-sl', {
   },
   
   breakpoints: {
-    // 320: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 0,
-    //   autoHeight: true,
-    // },
+    360: {
+      slidesPerView: 2.5,
+      spaceBetween: 10,
+    },
+    540: {
+      slidesPerView: 3.5,
+      spaceBetween: 15,
+    },
     768: {
-      slidesPerView: 3,
-      // spaceBetween: 20,
+      slidesPerView: 3.8,
     },
     1024: {
-      slidesPerView: 4,
-      // spaceBetween: 20,
+      slidesPerView: 5,
+      spaceBetween: 10,
+    },
+    1100: {
+      spaceBetween: 20,
     },
     1280: {
       slidesPerView: 6,
-      // spaceBetween: 30,
+      spaceBetween: 23,
     },
   },
   
@@ -260,8 +270,8 @@ let clients_sl = new Swiper('.clients-sl', {
 
   observer: true,
   observeParents: true,
-  slidesPerView: 1,
-  spaceBetween: 30,
+  slidesPerView: 1.1,
+  spaceBetween: 10,
   // autoHeight: true,
   speed: 2000,
   //touchRatio: 0,
@@ -281,22 +291,25 @@ let clients_sl = new Swiper('.clients-sl', {
   },
   
   breakpoints: {
-    // 320: {
-    //   slidesPerView: 1,
-    //   spaceBetween: 0,
-    //   autoHeight: true,
-    // },
+    360: {
+      slidesPerView: 1.8,
+    },
+    540: {
+      slidesPerView: 2.2,
+    },
     768: {
-      slidesPerView: 2,
-      // spaceBetween: 20,
+      slidesPerView: 2.5,
+    },
+    812: {
+      slidesPerView: 2.8,
     },
     1024: {
-      slidesPerView: 3,
-      // spaceBetween: 20,
+      slidesPerView: 3.5,
+      spaceBetween: 20,
     },
     1280: {
       slidesPerView: 4,
-      // spaceBetween: 30,
+      spaceBetween: 30,
     },
   },
   
